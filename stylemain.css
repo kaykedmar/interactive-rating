@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  width: 325px;
+  margin: 20px;
+  padding: 30px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  /* display: none; */
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+}
+
+.buttons button {
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  width: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(211, 19%, 23%);
+  margin: 5px;
+  margin-top: 20px;
+  transition: background-color 0.20s;
+}
+
+.buttons button:hover { 
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-top: 15px;
+  line-height: 23px;
+}
+
+.estrelaicon img {
+  width: 15px;
+}
+
+.estrelaicon {
+  background-color: hsl(211, 19%, 23%);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 9999px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px; /* Ajuste o valor conforme necessário */
+}
+
+.submit:active { 
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Botaos de avaliação Ativo */
+.nota { 
+  background-color: rgb(175, 175, 175);
+  color: white;
+}
