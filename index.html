@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="stylemain.css" />
     <link rel="stylesheet" href="stylesubmit.css">
 
-    
-
     <title>Frontend Mentor | Interactive rating component</title>
  
   </head>
@@ -33,19 +31,19 @@
         </div>
         <div class="buttons">
           <button id="btnOne"><span>1</span></button>
-          <button id="2"><span>2</span></button>
-          <button id="3"><span>3</span></button>
-          <button id="4"><span>4</span></button>
-          <button id="5"><span>5</span></button>
+          <button id="btnTwo"><span>2</span></button>
+          <button id="btnThree"><span>3</span></button>
+          <button id="btnFor"><span>4</span></button>
+          <button id="btnFive"><span>5</span></button>
         </div>
 
-        <button class="submit">SUBMIT</button>
+        <button class="submit" id="submitButton" disabled>SUBMIT</button>
      
       </main>
       <!-- Rating state end -->
       <div class="envio">
         <img src="interactive-rating-component-main/images/illustration-thank-you.svg" alt="">
-        <div class="selected">  <p>You selected <span>4</span> out of <span>5</span></p></div>
+        <div class="selected">  <p>You selected <span id="point">4</span> out of <span>5</span></p></div>
       
         <h2>Thank you!</h2>
         <p>
@@ -54,14 +52,14 @@
         </p>
       </div>
 
-      <!-- Thank you state end -->
+     
 
-      <!-- <div class="attribution">
+      <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div> -->
+        >. Coded by <a href="https://github.com/kaykedmar">Kayk Edmar Here</a>.
+      </div> 
       <script src="script.js"></script>
     </div>
   </div>
